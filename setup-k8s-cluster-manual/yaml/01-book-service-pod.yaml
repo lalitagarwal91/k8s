@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: book-service
 spec:
   containers:
-  - name: nginx
-    image: nginx
+  - name: book-service
+    image: lalitagarwal91/book-service:v1
     ports:
     - containerPort: 80
   hostName: k8s-master
