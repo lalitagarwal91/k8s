@@ -36,6 +36,6 @@ spec:
   hostNetwork: true
   volumes:
   - hostPath:
-      path: /src/kubeconfig.yml
+      path: /src/kubeconfig.yaml
       type: FileOrCreate
     name: kubeconfig

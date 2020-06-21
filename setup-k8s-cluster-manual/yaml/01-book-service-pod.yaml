@@ -7,5 +7,5 @@ spec:
   - name: book-service
     image: lalitagarwal91/book-service:v1
     ports:
-    - containerPort: 80
+    - containerPort: 8080
   hostName: k8s-master
